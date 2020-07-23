@@ -9,7 +9,7 @@ variable "region" {
 variable "db_allocated_storage" {
 	type = number
 	description = "How much storage allocated to RDS instance"
-	default = "20"
+	default = 20
 }
 
 variable "db_storage_type" {
