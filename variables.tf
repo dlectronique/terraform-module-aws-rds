@@ -1,13 +1,13 @@
 ### a list of variables
 
 variable "region" {
-	type = "string"
+	type = string
 	description = "The AWS region where you're going to deploy"
 	default = "eu-west-2"
 }
 
 variable "db_allocated_storage" {
-	type = "number"
+	type = number
 	description = "How much storage allocated to RDS instance"
 	default = "20"
 }
@@ -32,7 +32,7 @@ variable "db_instance_class" {
 	default = "db.t2.micro"
 }
 
-variable = "db_name" {
+variable "db_name" {
 	description = "Name of your database"
 	default = "domidb"
 }
