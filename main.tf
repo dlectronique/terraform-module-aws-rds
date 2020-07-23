@@ -8,5 +8,7 @@ resource "aws_db_instance" "domi-demo" {
   username             = var.db_username
   password             = var.db_password
   parameter_group_name = var.db_parameter_group_name
+  skip_final_snapshot = true
+
 }
 
