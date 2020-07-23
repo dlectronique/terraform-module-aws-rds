@@ -6,11 +6,11 @@ variable "region" {
 	default = "eu-west-2"
 }
 
-variable "db_allocated_storage" {
-	type = number
-	description = "How much storage allocated to RDS instance"
-	default = 20
-}
+##variable "db_allocated_storage" {
+##	type = number
+##	description = "How much storage allocated to RDS instance"
+##	default = 20
+##}
 
 variable "db_storage_type" {
 	description = "What type of AWS storage you are using"

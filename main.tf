@@ -1,5 +1,5 @@
 resource "aws_db_instance" "domi-demo" {
-  allocated_storage    = "var.db_allocated_storage"
+  allocated_storage    = 20
   storage_type         = "var.db_storage_type"
   engine               = "var.db_engine"
   engine_version       = "var.db_engine_version"
